@@ -1,0 +1,103 @@
+:root       {
+    --koala-piel: rgb(240, 154, 154);
+    --koala-oreja-interna: rgb(124, 87, 87);
+    --koala-color-ojo: white;
+    --color-pupila: black;
+    --color-nariz:rgb(73, 36, 2);
+}
+.image {
+    width: 577px;
+    height: 427px;
+    display: inline-block;
+}
+
+.koala {
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    width: 577px;
+    height: 427px;
+    background-color: rgb(35 170 252);
+
+}
+.oreja-derecha {
+    position: absolute;
+    top: 23%;
+    right: 10.7%;
+    width: 30%;
+    height: 46%;
+    border-radius: 100%;
+    background-color: var(--koala-piel);
+}
+.oreja-izquierdo {
+    position: absolute;
+    top: 23%;
+    left: 11%;
+    width: 30%;
+    height: 46%;
+    border-radius: 100%;
+    background-color:var(--koala-piel);
+}
+.oreja-interna {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    background-color:var(--koala-oreja-interna);
+}
+.cabeza {
+    position: absolute;
+    top:20%;
+    left:22.5%;
+    width: 55%;
+    height: 70%;
+    border-radius: 100%;
+    background-color: var(--koala-piel);
+}
+.ojo-derecho {
+    position: absolute;
+    top:25%;
+    left:18%;
+    width: 35%;
+    height: 35%;
+    border-radius: 100%;
+    background-color:var(--koala-color-ojo)
+}
+.pupila {
+    position: absolute;
+    top:25%;
+    left:18%;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    background-color:var(--color-pupila)
+}
+.ojo-izquierdo {
+    position: absolute;
+    top: 25%;
+    right: 18%;
+    width: 35%;
+    height: 35%;
+    border-radius: 100%;
+    background-color:var(--koala-color-ojo)
+}
+/*.boca {    
+    position: absolute;
+    bottom: 16%;
+    right: 20%;
+    width: 17%;
+    height: 8%;
+    border-radius: 0% 0% 100% 100%;
+    background-color:black
+} */
+.nariz {
+    position: absolute;
+    top:50%;
+    left:38%;
+    width: 24%;
+    height: 40%;
+    border-radius:50px;
+    background-color:var(--color-nariz);
+}
