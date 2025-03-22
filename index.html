@@ -1,30 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu Koala</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="kaola.css">
+    <script src="koala.js"></script>
   </head>
   <body>
-    <div class="image">
-      <img class="image" src="koala-azul.jpeg" alt="koala gris">
-    </div>
-    <p> hi</p>
-    <div class="koala">
-      <div class="oreja-derecha">
-        <div class="oreja-interna"></div>
-      </div>
-      <div class="oreja-izquierdo">
-        <div class="oreja-interna"></div>    
-      </div>
-      <div class="cabeza"> 
-        <div class="ojo-derecho">
-          <div class="pupila"></div>
+    <div class="container">
+      <header>
+        <h1>¡Crea tu propio Koala!</h1>
+        <p class="description">Haz clic en cualquier parte del koala para seleccionarla y modificarla. Utiliza los botones de abajo para cambiar colores, tamaños, posiciones y añadir características.</p>
+      </header>
+      
+      <div class="koala-container">
+        <div class="koala">
+          <div class="oreja-derecha">
+            <div class="oreja-interna"></div>
+          </div>
+          <div class="oreja-izquierdo">
+            <div class="oreja-interna"></div>    
+          </div>
+          <div class="cabeza"> 
+            <div class="ojo-derecho">
+              <div class="pupila"></div>
+            </div>
+            <div class="ojo-izquierdo">
+              <div class="pupila"></div>
+            </div> 
+            <div class="nariz"></div>       
+          </div>
         </div>
-        <div class="ojo-izquierdo">
-          <div class="pupila"></div>
-        </div> 
-        <div class= "boca"></div>
-        <div class="nariz"></div>       
       </div>
-    </div> 
+      
+      <div class="instructions">
+        <h3>Instrucciones:</h3>
+        <ul>
+          <li>Haz clic en cualquier parte del koala para seleccionarla</li>
+          <li>Utiliza los botones de acción para modificar la parte seleccionada:</li>
+          <li><strong>Mover:</strong> Permite arrastrar el elemento con el ratón</li>
+          <li><strong>Tamaño:</strong> Cambia el tamaño general del elemento</li>
+          <li><strong>Color:</strong> Modifica el color de la parte seleccionada</li>
+          <li><strong>Largo/Ancho:</strong> Ajusta solo el alto o el ancho del elemento</li>
+          <li><strong>Girar:</strong> Rota el elemento seleccionado</li>
+          <li><strong>Eliminar:</strong> Quita el elemento (podrás restaurarlo después)</li>
+          <li><strong>Agregar:</strong> Añade cejas, boca u otros elementos eliminados</li>
+          <li><strong>Reset:</strong> Vuelve a la versión original del koala</li>
+          <li><strong>Terminado:</strong> Finaliza la edición y muestra tu koala terminado</li>
+        </ul>
+      </div>
+    </div>
+    
+    <footer>
+      <p>Creador de Koalas &copy; 2025 - ¡Crea tu koala personalizado!</p>
+    </footer>
   </body>
 </html>
